@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div>
+	<div id "whole-screen">
+
+<div class="heading">
+	<img src = "http://www.thirteen.org/13pressroom/files/2013/01/SetPhoto_RyanLashTED.jpg" style= "height: 140px; width: 185px;" >
+	<img src = "https://tedconfblog.files.wordpress.com/2012/07/tedtunis_d81_5504.jpg" style= "height: 140px; width: 185px;">
+	<img src = "http://22oh311t47ddptkji3ha50yx.wpengine.netdna-cdn.com/wp-content/uploads/2015/06/TED-Talks-.png" style= "height: 140px; width: 185px;">
+	<img src = "http://www.blogcdn.com/www.engadget.com/media/2010/08/molyneux-ted-conf-071310rmeng.jpg" style= "height: 140px; width: 185px;">
+	<img src = "http://i.ytimg.com/vi/KM4Xe6Dlp0Y/maxresdefault.jpg" style= "height: 140px; width: 185px;">
+
+	
+</div>
+
+	<img src="http://rack.3.mshcdn.com/media/ZgkyMDE0LzAzLzE3LzZkL1RFRFRhbGtXZWIuZWU1ZDAuanBnCnAJdGh1bWIJOTUweDUzNCMKZQlqcGc/4b2576de/f4f/TED-Talk-Web.jpg" style="width:950px;height:534px;">
+
+<DIV STYLE="position:absolute; top:250px; left:20px; width:200px; height:25px">
+	<form id="tfnewsearch" method="post" action = "" >
+		        <input type="text" class="tftextinput" name="firstVerb" size="50" maxlength="120" value= "Type in keyword/topic"> 
+		        <br>
+		        <button type="submit" class="tfbutton"> Generate Ted Talk </button>
+		    <div id = "output">
+		        <p id='output1'>
+					{{r1}}
+				</p>
+				<p id='output2'>
+					{{r2}}
+				</p>
+				<p id='output3'>
+					{{r3}}
+				</p>
+				<p id='output4'>
+					{{r4}}
+				</p>
+			</div>
+</div>
+</div> 
+
+</form>
+
+</body>
+<style type="text/css">
+
+
+	.heading
+{
+	background-color: black;
+	height: 140px;
+	width: 950px;
+}
+	#tfnewsearch{
+		float:center;
+		padding:50px;
+		margin-left: 230px;
+		margin-top: 140px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+		width: 40;
+		margin-left: 130px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	 
+	}
+	.tfclear{
+		clear:both;
+	}
+
+	#output{
+
+		padding-top: 150px;
+		width: 950px;
+		text-align: left;
+
+
+	}
+
+
+
+.form-group {
+	padding-bottom: 20px;
+}
+#output1 {
+	padding-top: 30px;
+	text-align: left;
+
+}
+#output2 {
+	padding-top: 10px;
+}
+#output3 {
+	padding-top: 10px;
+}
+#output4 {
+	padding-top: 10px;
+}
+
+button{
+	width: 150px;
+}
+
+</style>
+</html>
